@@ -421,4 +421,97 @@ background-color: var(--card-color);
   background-position: center;
   background-size: cover;
 }
+@media (max-width: 768px) {
 
+  .nav {
+      display: flex;
+      gap: 10px;
+      
+  }
+
+  .nav-left {
+      width: 100%;
+      display: flex;
+     gap: 3px;
+  }
+  .title{
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: -7px;
+  }
+
+  .search {
+   display: flex;
+   gap: 5px;
+  }
+  .location{
+    width: 130px;
+    height: 25px;
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  .login{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 1px;
+  }
+  .search-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+  }
+  .loc-icon{
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+   
+  }
+  .search-box {
+      width: 100px;
+      font-size: 13px;
+      height: 27px;
+      margin-left: -40px;
+  }
+  .mode-icon{
+    width: 75px;
+    height: 20px;
+    margin-top: 4px;
+  }
+
+  .dropdown {
+      right: 0; 
+  }
+  .cart-icon{
+    width: 75px;
+    height: 25px;
+
+  }
+  .profile{
+    width: 85px;
+    height: 25px;
+    
+    
+  }
+  .count{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    right: 45px;
+    top: 10px;
+  }
+  .footer{
+    gap: 20px;
+    font-size: 14px;
+  }
+  .footer h1{
+    margin-left: 3px;
+  }
+  .bg-img{
+    object-fit: cover;
+    object-position: center;
+  }
+  .slide-bg{
+    width: 95%;
+  }
+  
+}
